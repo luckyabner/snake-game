@@ -1,16 +1,34 @@
-# React + Vite
+# 🐍 Snake Game - 贪吃蛇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+使用 React + Vite 开发的经典贪吃蛇游戏
 
-Currently, two official plugins are available:
+## 功能特性
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ 经典贪吃蛇玩法
+- ✅ 分数显示 + 最高分记录
+- ✅ 游戏结束判定
+- ✅ 开始/重新开始按钮
+- ✅ 键盘控制 (方向键 或 WASD)
+- ✅ 美观的霓虹风格 UI
 
-## React Compiler
+## 运行方式
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# 安装依赖
+yarn install
 
-## Expanding the ESLint configuration
+# 启动开发服务器
+yarn dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 构建生产版本
+yarn build
+```
+
+## 技术栈
+
+- React 19
+- Vite 7
+
+## 预览
+
+访问: https://luckyabner.github.io/snake-game
